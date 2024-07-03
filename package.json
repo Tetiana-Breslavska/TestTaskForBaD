@@ -1,0 +1,20 @@
+{
+  "name": "bad",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node decompress.mjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bzip2": "^0.1.1",
+    "fs": "^0.0.1-security",
+    "open": "^10.1.0",
+    "unbzip2-stream": "^1.4.3",
+    "http-server": "^14.1.1"
+  }
+}
